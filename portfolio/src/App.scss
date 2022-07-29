@@ -7,12 +7,14 @@ html {
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
+	
 }
 
 .aligner {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 .title-container {
@@ -38,7 +40,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #efe1bd;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -52,6 +54,7 @@ header .nav {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
+
 
 .github-corner:hover .octo-arm {
 	animation:octocat-wave 560ms ease-in-out
@@ -70,9 +73,9 @@ header .nav {
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
-	border-top: 5px solid #696969;
+	border-top: 5px solid #ffffff;
 	border-radius: 0 0 5px 5px;
-	background-color: #696969;
+	background-color: #e7f19a;
 	color: white;
 }
 
@@ -95,7 +98,7 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: #000000;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -368,7 +371,7 @@ header h1 {
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 	opacity: 0;
-	background-color: rgba(51, 51, 51, 0.9);
+	background-color: rgba(164, 126, 126, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -389,7 +392,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #484040;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -414,7 +417,7 @@ header h1 {
 }
 
 footer {
-	background: #1F1F1F;
+	background: #484040;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;

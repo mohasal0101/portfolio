@@ -3,7 +3,7 @@ body[data-theme="dark"] {
    @import '/src/scss/dark-slider.scss';
 
    .slider-tab {
-      background-color: #8C8C8C;
+      background-color: #f2f2f2;
    }
 
    .title-styles {
@@ -11,9 +11,10 @@ body[data-theme="dark"] {
    }
 
    .header-icon {
-      color: #3C342C;
+      color: #000000;
       opacity: 0.8;
    }
+  
 
    .slider-image {
       border: 5px solid #8C8C8C;
@@ -28,14 +29,14 @@ body[data-theme="dark"] {
    }
 
    .project-date {
-      background-color: #918e97;
+      background-color: #310882;
       color: white;
    }
 
    header {
-      background-color: #494949;
+      background-color: #363434;
       h1 {
-         color: white;
+         color: rgb(0, 0, 0);
       }
    }
 
@@ -45,21 +46,21 @@ body[data-theme="dark"] {
          color: white;
       }
       .polaroid span {
-         background:  #6d6d6d;
+         background:  #393737;
       }
       .card {
-         background: #6d6d6d;
-         color: white;
+         background: #393737;
+         color: rgb(255, 255, 255);
       }
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: #2e2e2e;
       .section-title {
-         color: white !important;
+         color: rgb(255, 255, 255) !important;
       }
       .foto div {
-         background: #6d6d6d;
+         background: #1d1d1d;
       }
       .project-title-settings {
          color: white;
@@ -68,18 +69,18 @@ body[data-theme="dark"] {
 
    #resume {
       filter: brightness(80%);
-      background: #5b5b5b;
+      background: #8c8888;
       .section-title {
          color: white !important;
       }
 
       .experience-badge {
-         background: #919191 !important;
+         background: #454443 !important;
          color: white;
       }
 
       .main-badge {
-         background: #919191 !important;
+         background: #4d3d3d !important;
       }
 
       .vertical-timeline-element-date {
@@ -87,7 +88,7 @@ body[data-theme="dark"] {
       }
 
       .vertical-timeline-element-icon {
-         background: #919191 !important;
+         background: #000000 !important;
       }
       @media only screen and (max-width: 1169px) { 
          .vertical-timeline-element-date {
